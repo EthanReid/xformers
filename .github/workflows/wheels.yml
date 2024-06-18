@@ -35,7 +35,7 @@ jobs:
         include = []
         for os in ['8-core-ubuntu', 'windows-8-core']:
           for python in PY_VERSIONS:
-            for torch_version in ['2.3.0']:
+            for torch_version in ['2.3.1']:
               for cuda_short_version in ["118", "121"]:
                 include.append(dict(
                   os=os,
